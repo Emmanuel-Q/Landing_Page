@@ -108,12 +108,60 @@
 
 .quote {
     background-color: #e5e7eb;
-    padding: 200px 400px;
+    padding: 100px 260px;
 }
 
 .quote-mess .text {
-    font-size: 36px;
-    font-style: italic; 
+    font-size: 36px; 
     font-weight: lighter;
 }
 
+.quote-mess .author {
+    font-size: 24px;
+    text-align: right;
+}
+
+.CTA {
+    padding: 100px 200px;
+}
+
+.CTA-info {
+    background-color: #3883f6;
+    border-radius: 8px;
+    padding: 44px 92px;
+    font-size: 18px;
+    width: auto;
+    color: #f9faf8;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+}
+
+.CTA-btn {
+    font-weight: bold;
+    padding: 8px 30px;
+    color: aliceblue;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: #3883f6;
+
+}
+
+.CTA-p {
+    padding-top: 12px;
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.footer p {
+    color: #f9faf8;
+    text-align: center;
+    padding: 32px;
+    font-size: 18px;
+    font-weight: bold;
+
+}
